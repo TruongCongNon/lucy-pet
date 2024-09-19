@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+    --bg-01: #FFFAF5;
+    --bg-02: #FFF6ED;
+    --color-01: #000958;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins;
+}
+
+.header {
+    background: var(--bg-01);
+    padding: 20px 0;
+    height: 758px;
+}
+
+/* .header+.header-card .header-title {
+    display: inline-block;
+
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    height: 50px;
+    width: 1169px;
+    place-items: center;
+    position: sticky;
+    top: 0;
+    background: var(--bg-01);
+    margin-bottom: 50px;
+
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nav-content-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content-items li {
+    margin: 0 18px;
+}
+
+.nav-content-items li a {
+    color: #5e6085;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.nav-content-items li:first-child a {
+    font-weight: 600;
+    color: var(--color-01);
+}
+
+.nav-btn {
+    width: 117px;
+    height: 50px;
+    border: 1px solid var(--color-01);
+    text-align: center;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.nav-btn span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: var(--color-01);
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -50px;
+}
+
+.header-card img {
+    width: 508px;
+    height: 482px;
+}
+
+.header-title {
+    width: 517px;
+    height: 440px;
+}
+
+.header-title-content {}
+
+.header-title-content p {
+    color: var(--color-01);
+    font-family: Sora;
+    font-size: 66px;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+
+
+.header-title-direction p {
+    width: 391px;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-title-btn {
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title-btn button {
+    margin-right: 50px;
+    border-radius: 31px;
+    background: #FF5B2E;
+    border: none;
+    outline: none;
+    color: wheat;
+    width: 189px;
+    height: 60px;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
